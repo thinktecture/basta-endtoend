@@ -1,0 +1,13 @@
+{
+  "name": "BASTA Demo",
+  "main": "index.html",
+  "window": {
+    "title": "BASTA",
+    "toolbar": false,
+    "width": 1024,
+    "height": 750,
+    "position": "mouse",
+    "min_width": 1024,
+    "min_height": 750
+  }
+}

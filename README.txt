@@ -67,13 +67,10 @@ Download BS:
  -http://docs.angularjs.org/api
 
 
-
-Server aufsetzen
-================
+Server weiter aufsetzen
+=======================
 
 ASP.NET Web API
----------------
-
 - Microsoft.AspNet.WebApi
 - Microsoft.AspNet.WebApi.Owin
 - Microsoft.Owin.Security.OAuth
@@ -82,19 +79,18 @@ ASP.NET Web API
 - EntityFramework.SqlServerCompact
 
 Startup.cs
-----------
 - CamelCasePropertyNamesContractFormatter --> camelCase statt PascalCase auf der JavaScript-Seite
 
 
+PhoneGap/Cordova App bauen
+==========================
+cordova create BASTAEndToEnd com.tt.basta BASTAEndToEnd
+cd BASTAEndToEnd/
+Order 'app', 'libs' aus der Web App und generiertes index.html in 'www' Ordener kopieren
+cordova platform add ios
+cordova platform add android
 
-
-
-
-
-
-
-
-
-
-
+node-webkit Anwendung bauen
+===========================
+siehe https://github.com/rogerwang/node-webkit
 
