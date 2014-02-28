@@ -46,13 +46,7 @@ namespace BASTAEndToEnd.ApiControllers
                     r.Company
                 }).ToList();
 
-            if (result.Count > 0)
-            {
-                return new Result<dynamic>(result);
-            }
-
-            throw new HttpResponseException(HttpStatusCode.NotFound);
-            
+            return new Result<dynamic>(result);
         }
 
         [HttpGet]
@@ -65,7 +59,7 @@ namespace BASTAEndToEnd.ApiControllers
             {
                 return result;
             }
-            
+
             throw new HttpResponseException(HttpStatusCode.NotFound);
         }
 
