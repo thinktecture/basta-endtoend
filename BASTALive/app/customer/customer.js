@@ -1,29 +1,35 @@
 (function () {
    "use strict";
 
-   function CustomerController($scope, $routeParams) {
+   /**
+    * @param $scope
+    * @param $routeParams
+    * @param {$app.CustomerService} customerService
+    * @param {$app.MetadataService} metadataService
+    * @param {$app.Toast} toast
+    * @param {$app.Modal} modal
+    * @constructor
+    */
+   function CustomerController($scope, $routeParams, customerService, metadataService, toast, modal) {
+      customerService.get($routeParams.id).then(function(customer){
+            $scope.customer = customer;
+      });
 
+      metadataService.getAllCountries().then(function(countries){
+         $scope.countries = countries;
+      });
 
+      $scope.saveCustomer = function(){
+         modal.showAjax();
 
-
-
-
-      function Customer(id, last, first) {
-         this.id = id;
-         this.firstName = first;
-         this.lastName = last;
-
-
-         this.getFullName = function(){
-            return this.firstName + " " + this.lastName;
-         };
-      }
-
-
-      $scope.customer = new Customer($routeParams.id, "Test", "User #" + $routeParams.id);
-
-      // alert("CustomerController");
-
+         customerService.save($scope.customer).then(function(){
+            modal.hideAjax();
+            toast.showSuccess("Alles gut");
+         }, function(err){
+            modal.hideAjax();
+            toast.showError("NIX gut");
+         });
+      };
 
    }
 

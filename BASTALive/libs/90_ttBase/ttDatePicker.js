@@ -11,7 +11,6 @@
          restrict: "EA",
          replace: true,
          transclude: false,
-         template:"<input class='form-control' type='text'>",
          compile: function (element, attrs) {
             var ngModel = $parse(attrs.ngModel); // ng-model="user.firstname.foo[0].bla()"
 
