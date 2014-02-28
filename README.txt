@@ -1,3 +1,5 @@
+GitHub Repo: https://github.com/thinktecture/basta-endtoend
+
 Server aufsetzen
 ================
 Visual Studio -> "ASP.NET"-Projekt
@@ -36,6 +38,9 @@ Download BS:
  -libs
  -font
 
+-Bundling
+ -erst libs Folder, dnn app Folder
+
 -Nummerierung der CSS und JS Ordner, a la '10', '20', ...
  -für Reihenfolge der Scripts, Assets
 
@@ -45,4 +50,14 @@ Download BS:
 -Auseinandernehmen der index.html
  -Extrahieren der funktionalen Unterbereiche
 
-...
+-Einbinden von AngularJS
+ -http://angularjs.org/
+
+-JavaScript IFFE
+ -http://benalman.com/news/2010/11/immediately-invoked-function-expression/
+
+-Inkludieren der extrahierten HTML-Fragmente mit ng-include
+
+-Main-Bereich über ng-view einbinden
+
+
