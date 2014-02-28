@@ -67,6 +67,7 @@ namespace BASTAEndToEnd.ApiControllers
         [ActionName("single")]
         public Customer Save(Customer customer)
         {
+            // TODO: check valid model!
             if (customer != null)
             {
                 Customer updatedCustomer;
