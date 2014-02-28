@@ -19,10 +19,10 @@ Berechtigungen im Dateisystem für den "IUSR"-Benutzer
 Client aufsetzen
 ================
 Twitter Bootstrap (BS) als Basis-Design
--getbootstrap.com
+-http://getbootstrap.com
 
 Vorgefertigte BS Themes:
--themeforest.net; kostenpflichtig; Lizenzen
+-http://themeforest.net; kostenpflichtig; Lizenzen
 
 Für diese App hier:
 -http://getbootstrap.com/examples/dashboard/
@@ -36,6 +36,13 @@ Download BS:
  -libs
  -font
 
--Nummerierung der CSS und JS Ordner, a la '10', '20'
+-Nummerierung der CSS und JS Ordner, a la '10', '20', ...
  -für Reihenfolge der Scripts, Assets
 
+-Vertraut machen mit der BS Design Sprache
+ -http://getbootstrap.com/css/
+
+-Auseinandernehmen der index.html
+ -Extrahieren der funktionalen Unterbereiche
+
+...
