@@ -39,3 +39,6 @@ Download BS:
 -Nummerierung der CSS und JS Ordner, a la '10', '20'
  -für Reihenfolge der Scripts, Assets
 
+-Vertraut machen mit der BS Design Sprache
+ -http://getbootstrap.com/css/
+
