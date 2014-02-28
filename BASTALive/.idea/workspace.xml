@@ -65,8 +65,18 @@
       <file leaf-file-name="customer.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/customer/customer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19799499" vertical-offset="361" max-vertical-offset="860">
-              <caret line="22" column="24" selection-start="682" selection-end="682" />
+            <state vertical-scroll-proportion="0.79949874" vertical-offset="41" max-vertical-offset="780">
+              <caret line="18" column="0" selection-start="506" selection-end="506" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ttClickAjax.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libs/90_ttBase/ttClickAjax.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="200" max-vertical-offset="1480">
+              <caret line="34" column="33" selection-start="1061" selection-end="1061" />
               <folding />
             </state>
           </provider>
@@ -75,8 +85,8 @@
       <file leaf-file-name="customer.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/customer/customer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.3076923" vertical-offset="480" max-vertical-offset="1140">
-              <caret line="27" column="0" selection-start="923" selection-end="923" />
+            <state vertical-scroll-proportion="-7.423077" vertical-offset="767" max-vertical-offset="1140">
+              <caret line="48" column="79" selection-start="1719" selection-end="1719" />
               <folding />
             </state>
           </provider>
@@ -137,10 +147,10 @@
         <option value="$PROJECT_DIR$/app/main/main.html" />
         <option value="$PROJECT_DIR$/app/services/customerService.js" />
         <option value="$PROJECT_DIR$/libs/90_ttBase/ttDatePicker.js" />
-        <option value="$PROJECT_DIR$/app/customer/customer.html" />
         <option value="$PROJECT_DIR$/app/services/metadataService.js" />
-        <option value="$PROJECT_DIR$/app/customer/customer.js" />
         <option value="$PROJECT_DIR$/libs/90_ttBase/modal.js" />
+        <option value="$PROJECT_DIR$/app/customer/customer.html" />
+        <option value="$PROJECT_DIR$/app/customer/customer.js" />
       </list>
     </option>
   </component>
@@ -537,14 +547,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/customer/customer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.3076923" vertical-offset="480" max-vertical-offset="1140">
-          <caret line="27" column="0" selection-start="923" selection-end="923" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/services/customerService.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="248" max-vertical-offset="780">
@@ -553,10 +555,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/customer/customer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.423077" vertical-offset="767" max-vertical-offset="1140">
+          <caret line="48" column="79" selection-start="1719" selection-end="1719" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/90_ttBase/ttClickAjax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="200" max-vertical-offset="1480">
+          <caret line="34" column="33" selection-start="1061" selection-end="1061" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/customer/customer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19799499" vertical-offset="361" max-vertical-offset="860">
-          <caret line="22" column="24" selection-start="682" selection-end="682" />
+        <state vertical-scroll-proportion="0.79949874" vertical-offset="41" max-vertical-offset="780">
+          <caret line="18" column="0" selection-start="506" selection-end="506" />
           <folding />
         </state>
       </provider>

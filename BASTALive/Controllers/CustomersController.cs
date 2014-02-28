@@ -70,7 +70,6 @@ namespace BASTAEndToEnd.ApiControllers
         public Customer Save(Customer customer)
         {
             Thread.Sleep(1000);
-
             if (customer != null)
             {
                 Customer updatedCustomer;

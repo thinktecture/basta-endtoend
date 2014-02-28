@@ -11,24 +11,20 @@
     * @constructor
     */
    function CustomerController($scope, $routeParams, customerService, metadataService, toast, modal) {
-      customerService.get($routeParams.id).then(function(customer){
-            $scope.customer = customer;
+
+      modal.showAjax();
+
+      customerService.get($routeParams.id).then(function (customer) {
+         modal.hideAjax();
+         $scope.customer = customer;
       });
 
-      metadataService.getAllCountries().then(function(countries){
+      metadataService.getAllCountries().then(function (countries) {
          $scope.countries = countries;
       });
 
-      $scope.saveCustomer = function(){
-         modal.showAjax();
-
-         customerService.save($scope.customer).then(function(){
-            modal.hideAjax();
-            toast.showSuccess("Alles gut");
-         }, function(err){
-            modal.hideAjax();
-            toast.showError("NIX gut");
-         });
+      $scope.saveCustomer = function () {
+         return customerService.save($scope.customer);
       };
 
    }
