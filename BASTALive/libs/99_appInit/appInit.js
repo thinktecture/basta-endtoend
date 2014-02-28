@@ -1,7 +1,9 @@
 (function () {
    "use strict";
 
-   angular.module("bastaEndToEnd", ["ngRoute"]);
+   window.$app = window.$app || {};
+
+   $app.mod = angular.module("bastaEndToEnd", ["ngRoute", "ttBase"]);
 })();
 
 

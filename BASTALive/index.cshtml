@@ -21,9 +21,15 @@
     <![endif]-->
 </head>
 
-<body ng-app="bastaEndToEnd">
+<style>
+    .ng-cloak {
+        display:none;
+    }
+</style>
 
-    <div ng-include="'app/navbar/navbar.html'"></div>
+<body ng-app="bastaEndToEnd" class="ng-cloak">
+
+    <basta-navbar></basta-navbar>
 
     <div class="container-fluid">
         <div class="row">
