@@ -33,68 +33,70 @@ Für diese App hier:
 Download BS:
 -http://getbootstrap.com/getting-started#download
 
--Client-relevante Ordner im VS-Projekt anlegen
+Client-relevante Ordner im VS-Projekt anlegen
  -app
  -libs
  -font
 
--Bundling
+Bundling
  -erst libs Folder, dnn app Folder
 
--Nummerierung der CSS und JS Ordner, a la '10', '20', ...
+Nummerierung der CSS und JS Ordner, a la '10', '20', ...
  -für Reihenfolge der Scripts, Assets
 
--Vertraut machen mit der BS Design Sprache
+Vertraut machen mit der BS Design Sprache
  -http://getbootstrap.com/css/
 
--Auseinandernehmen der index.html
+Auseinandernehmen der index.html
  -Extrahieren der funktionalen Unterbereiche
 
--Einbinden von AngularJS
+Einbinden von AngularJS
  -http://angularjs.org/
 
--JavaScript IFFE
+JavaScript IFFE
  -http://benalman.com/news/2010/11/immediately-invoked-function-expression/
 
--Inkludieren der extrahierten HTML-Fragmente mit ng-include
+Inkludieren der extrahierten HTML-Fragmente mit ng-include
 
--Main-Bereich über ng-view einbinden
+Main-Bereich über ng-view einbinden
 
--Alternative für komplexe UI States: ui-router (nicht im AngularJS-Paket)
+Alternative für komplexe UI States: ui-router (nicht im AngularJS-Paket)
  -https://github.com/angular-ui/ui-router
 
--AngularJS API Doku
+AngularJS API Doku
  -http://docs.angularjs.org/api
 
 
+Server weiter aufsetzen
+=======================
 
-Server aufsetzen
-================
-
-ASP.NET Web API
----------------
-
-- Microsoft.AspNet.WebApi
-- Microsoft.AspNet.WebApi.Owin
-- Microsoft.Owin.Security.OAuth
-- Microsoft.Owin.Host.SystemWeb
-- EntityFramework
-- EntityFramework.SqlServerCompact
+ASP.NET Web API & OWIN
+ -Microsoft.AspNet.WebApi
+ -Microsoft.AspNet.WebApi.Owin
+ -Microsoft.Owin.Security.OAuth
+ -Microsoft.Owin.Host.SystemWeb
+ -EntityFramework
+ -EntityFramework.SqlServerCompact
 
 Startup.cs
-----------
-- CamelCasePropertyNamesContractFormatter --> camelCase statt PascalCase auf der JavaScript-Seite
+ -CamelCasePropertyNamesContractFormatter --> camelCase statt PascalCase auf der JavaScript-Seite
 
 
+PhoneGap/Cordova App bauen
+==========================
+http://endtoend.local im Browser aufrufen (oder mit curl.exe) und als index.html abspeichern
+ -sicherstellen, dass alle src-Links entweder auf "app/..." oder "libs/..." lauten
+
+cordova create BASTAEndToEnd com.tt.basta BASTAEndToEnd
+cd BASTAEndToEnd/
+
+Order 'app', 'libs' aus der Web App und generiertes index.html in 'www' Ordner kopieren
+
+cordova platform add ios
+cordova platform add android
 
 
-
-
-
-
-
-
-
-
-
+node-webkit Anwendung bauen
+===========================
+siehe https://github.com/rogerwang/node-webkit
 
