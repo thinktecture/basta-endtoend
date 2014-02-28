@@ -66,3 +66,8 @@ Download BS:
 -AngularJS API Doku
  -http://docs.angularjs.org/api
 
+-Direktiven (Directives) in AngularJS zum Kapseln von "Controls"
+
+-Direktiven werden mit Factory-Funktionen gebaut
+ -<basta-navbar> (aka "bastaNavbar")
+
