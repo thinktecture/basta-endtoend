@@ -2,12 +2,12 @@
    "use strict";
 
 
-   function NavbarController($scope) {
+   function NavbarController($scope, $location) {
 
       $scope.search = {query: ""};
 
       $scope.performSearch = function(){
-         alert("Suche nach: " + $scope.search.query);
+         $location.path("/customerList/" + $scope.search.query);
       };
 
    }
