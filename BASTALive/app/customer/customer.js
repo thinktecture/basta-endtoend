@@ -1,29 +1,31 @@
 (function () {
    "use strict";
 
-   function CustomerController($scope, $routeParams) {
+   /**
+    * @param $scope
+    * @param $routeParams
+    * @param {$app.CustomerService} customerService
+    * @param {$app.MetadataService} metadataService
+    * @param {$app.Toast} toast
+    * @param {$app.Modal} modal
+    * @constructor
+    */
+   function CustomerController($scope, $routeParams, customerService, metadataService, toast, modal) {
 
+      modal.showAjax();
 
+      customerService.get($routeParams.id).then(function (customer) {
+         modal.hideAjax();
+         $scope.customer = customer;
+      });
 
+      metadataService.getAllCountries().then(function (countries) {
+         $scope.countries = countries;
+      });
 
-
-
-      function Customer(id, last, first) {
-         this.id = id;
-         this.firstName = first;
-         this.lastName = last;
-
-
-         this.getFullName = function(){
-            return this.firstName + " " + this.lastName;
-         };
-      }
-
-
-      $scope.customer = new Customer($routeParams.id, "Test", "User #" + $routeParams.id);
-
-      // alert("CustomerController");
-
+      $scope.saveCustomer = function () {
+         return customerService.save($scope.customer);
+      };
 
    }
 

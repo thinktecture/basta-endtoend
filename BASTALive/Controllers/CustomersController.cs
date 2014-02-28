@@ -1,5 +1,7 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 using System.Net;
+using System.Threading;
 using System.Web.Http;
 using BASTAEndToEnd.Models;
 using BASTAEndToEnd.Repositories.EF;
@@ -67,7 +69,7 @@ namespace BASTAEndToEnd.ApiControllers
         [ActionName("single")]
         public Customer Save(Customer customer)
         {
-            // TODO: check valid model!
+            Thread.Sleep(1000);
             if (customer != null)
             {
                 Customer updatedCustomer;

@@ -21,6 +21,7 @@
          '.popupAjax.ui-widget-content, .popupAjax .ui-dialog-content {' +
          '   background: none !important;' +
          '   border: 0 !important;' +
+         '   overflow: hidden;' +
          '}' +
          '        #floatingCirclesG{\n' +
          '            position:relative;\n' +
