@@ -1,8 +1,7 @@
 (function () {
    "use strict";
 
-   angular.module("bastaEndToEnd", []);
-
+   angular.module("bastaEndToEnd", ["ngRoute"]);
 })();
 
 
