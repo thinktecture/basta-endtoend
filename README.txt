@@ -66,8 +66,35 @@ Download BS:
 -AngularJS API Doku
  -http://docs.angularjs.org/api
 
--Direktiven (Directives) in AngularJS zum Kapseln von "Controls"
 
--Direktiven werden mit Factory-Funktionen gebaut
- -<basta-navbar> (aka "bastaNavbar")
+
+Server aufsetzen
+================
+
+ASP.NET Web API
+---------------
+
+- Microsoft.AspNet.WebApi
+- Microsoft.AspNet.WebApi.Owin
+- Microsoft.Owin.Security.OAuth
+- Microsoft.Owin.Host.SystemWeb
+- EntityFramework
+- EntityFramework.SqlServerCompact
+
+Startup.cs
+----------
+- CamelCasePropertyNamesContractFormatter --> camelCase statt PascalCase auf der JavaScript-Seite
+
+
+
+
+
+
+
+
+
+
+
+
+
 
