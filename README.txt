@@ -60,4 +60,9 @@ Download BS:
 
 -Main-Bereich über ng-view einbinden
 
+-Alternative für komplexe UI States: ui-router (nicht im AngularJS-Paket)
+ -https://github.com/angular-ui/ui-router
+
+-AngularJS API Doku
+ -http://docs.angularjs.org/api
 
