@@ -1,0 +1,5 @@
+.clickable:hover, .clickable:hover > td
+{
+    background-color: #ffff00 !important;
+    cursor: pointer;
+}

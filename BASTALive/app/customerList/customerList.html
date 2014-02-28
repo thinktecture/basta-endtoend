@@ -1,3 +1,24 @@
 <h1>Customer List</h1>
 
 <a href="#/customer/123">Test (Customer)</a>
+
+
+<table class="table table-striped">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Company</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <tr class="clickable" ng-repeat="customer in customers" ng-click="openCustomer(customer)">
+        <td>{{customer.id}}</td>
+        <td>{{customer.firstname}} {{customer.lastname}}</td>
+        <td>{{customer.company}}</td>
+    </tr>
+    </tbody>
+
+
+</table>
