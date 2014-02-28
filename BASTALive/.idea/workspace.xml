@@ -45,8 +45,8 @@
       <file leaf-file-name="navbar.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/navbar/navbar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.230769" vertical-offset="220" max-vertical-offset="880">
-              <caret line="23" column="16" selection-start="1141" selection-end="1141" />
+            <state vertical-scroll-proportion="-2.3076923" vertical-offset="0" max-vertical-offset="820">
+              <caret line="3" column="100" selection-start="241" selection-end="241" />
               <folding />
             </state>
           </provider>
@@ -62,10 +62,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="customer.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="customerList.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/customerList/customerList.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6373293" vertical-offset="0" max-vertical-offset="659">
+              <caret line="21" column="8" selection-start="446" selection-end="446" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="customer.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/customer/customer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.79949874" vertical-offset="41" max-vertical-offset="780">
+            <state vertical-scroll-proportion="0.0" vertical-offset="41" max-vertical-offset="780">
               <caret line="18" column="0" selection-start="506" selection-end="506" />
               <folding />
             </state>
@@ -112,16 +122,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/app.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="200">
-              <caret line="4" column="1" selection-start="106" selection-end="106" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -139,11 +139,9 @@
         <option value="$PROJECT_DIR$/libs/05_bootstrap/css/bootstrap-theme.css" />
         <option value="$PROJECT_DIR$/libs/05_bootstrap/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/app/navbar/navbar.js" />
-        <option value="$PROJECT_DIR$/app/customerList/customerList.html" />
         <option value="$PROJECT_DIR$/app/app.css" />
         <option value="$PROJECT_DIR$/app/customerList/customerList.js" />
         <option value="$PROJECT_DIR$/app/sidebar/sidebar.html" />
-        <option value="$PROJECT_DIR$/app/navbar/navbar.html" />
         <option value="$PROJECT_DIR$/app/main/main.html" />
         <option value="$PROJECT_DIR$/app/services/customerService.js" />
         <option value="$PROJECT_DIR$/libs/90_ttBase/ttDatePicker.js" />
@@ -151,14 +149,15 @@
         <option value="$PROJECT_DIR$/libs/90_ttBase/modal.js" />
         <option value="$PROJECT_DIR$/app/customer/customer.html" />
         <option value="$PROJECT_DIR$/app/customer/customer.js" />
+        <option value="$PROJECT_DIR$/app/navbar/navbar.html" />
+        <option value="$PROJECT_DIR$/app/customerList/customerList.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-6" />
     <option name="y" value="22" />
-    <option name="width" value="1280" />
-    <option name="height" value="733" />
+    <option name="width" value="1680" />
+    <option name="height" value="983" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -367,15 +366,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="22" width="1280" height="733" extended-state="0" />
+    <frame x="0" y="22" width="1680" height="983" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3289855" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24148937" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16190477" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -464,14 +463,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/customerList/customerList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.230769" vertical-offset="60" max-vertical-offset="580">
-          <caret line="15" column="24" selection-start="255" selection-end="255" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/navbar/navbar.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="700">
@@ -500,22 +491,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.3076923" vertical-offset="0" max-vertical-offset="260">
           <caret line="3" column="0" selection-start="133" selection-end="133" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/navbar/navbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.230769" vertical-offset="220" max-vertical-offset="880">
-          <caret line="23" column="16" selection-start="1141" selection-end="1141" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/main/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.5384616" vertical-offset="0" max-vertical-offset="160">
-          <caret line="2" column="0" selection-start="27" selection-end="27" />
           <folding />
         </state>
       </provider>
@@ -573,8 +548,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/customer/customer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79949874" vertical-offset="41" max-vertical-offset="780">
+        <state vertical-scroll-proportion="0.0" vertical-offset="41" max-vertical-offset="780">
           <caret line="18" column="0" selection-start="506" selection-end="506" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/navbar/navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.3076923" vertical-offset="0" max-vertical-offset="820">
+          <caret line="3" column="100" selection-start="241" selection-end="241" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/main/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.5384616" vertical-offset="0" max-vertical-offset="160">
+          <caret line="2" column="0" selection-start="27" selection-end="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/customerList/customerList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6373293" vertical-offset="0" max-vertical-offset="659">
+          <caret line="21" column="8" selection-start="446" selection-end="446" />
           <folding />
         </state>
       </provider>
