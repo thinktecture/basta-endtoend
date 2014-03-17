@@ -156,3 +156,6 @@ $RECYCLE.BIN/
 .DS_Store
 packages/
 BASTAEndToEnd/.idea/workspace.xml
+
+._.DS_Store
+._BASTALive

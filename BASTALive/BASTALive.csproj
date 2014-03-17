@@ -142,6 +142,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\app.css" />
+    <Content Include="app\customerList\customerList.html" />
+    <Content Include="app\customerList\customerList.js" />
+    <Content Include="app\customer\customer.html" />
+    <Content Include="app\customer\customer.js" />
+    <Content Include="app\main\main.html" />
+    <Content Include="app\navbar\navbar.html" />
+    <Content Include="app\navbar\navbar.js" />
+    <Content Include="app\routing.js" />
+    <Content Include="app\services\customerService.js" />
+    <Content Include="app\services\metadataService.js" />
+    <Content Include="app\sidebar\sidebar.html" />
     <Content Include="App_Data\EndToEnd.sdf" />
     <Content Include="packages.config" />
     <Content Include="index.cshtml" />

@@ -1,5 +1,15 @@
 .clickable:hover, .clickable:hover > td
 {
+    background-color: #e6ffce !important;
+    cursor: pointer;
+}
+
+.clickable.selected:hover, .clickable.selected:hover > td, .clickable.selected, .clickable.selected > td
+{
     background-color: #ffff00 !important;
+    cursor: pointer;
+}
+
+.clickablelink {
     cursor: pointer;
 }

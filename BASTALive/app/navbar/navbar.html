@@ -20,6 +20,9 @@
                        tt-enter="performSearch()"
                 >
             </form>
+            <ul ng-show="selection.customerId" class="nav navbar-nav navbar-right clickablelink">
+                <li><a ng-click="openCustomer(selection.customerId)" >Öffnen</a></li>
+            </ul>
         </div>
     </div>
 </div>

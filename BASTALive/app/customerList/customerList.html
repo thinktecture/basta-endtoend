@@ -1,6 +1,5 @@
 <h1>Customer List</h1>
 
-
 <table class="table table-striped">
     <thead>
     <tr>
@@ -11,7 +10,7 @@
     </thead>
 
     <tbody>
-    <tr class="clickable" ng-repeat="customer in customers" ng-click="openCustomer(customer)">
+    <tr class="clickable" ng-class="{selected: selection.customerId === customer.id}" ng-repeat="customer in customers" ng-click="selectCustomer(customer)">
         <td>{{customer.id}}</td>
         <td>{{customer.firstname}} {{customer.lastname}}</td>
         <td>{{customer.company}}</td>

@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Data.Entity.Core.Common.EntitySql;
 using System.Linq;
 using System.Net;
 using System.Threading;
@@ -31,6 +33,18 @@ namespace BASTAEndToEnd.ApiControllers
             return new Result<Customer>(repository.GetAll().ToList());
         }
 
+        [HttpGet]
+        [ActionName("folders")]
+        public Result<dynamic> GetFolders()
+        {
+            List<Folder> folders = new List<Folder>();
+
+            folders.Add(new Folder(){Id=1, Name ="Testfolder 1"});
+            folders.Add(new Folder(){Id=2, Name ="Testfolder 2"});
+            folders.Add(new Folder(){Id=3, Name ="Testfolder 3"});
+            return new Result<dynamic>(folders);
+        }
+        
         [HttpGet]
         [ActionName("list")]
         public Result<dynamic> GetCustomers(string query)
@@ -87,6 +101,12 @@ namespace BASTAEndToEnd.ApiControllers
             }
 
             throw new HttpResponseException(HttpStatusCode.BadRequest);
+        }
+
+        class Folder
+        {
+            public int Id;
+            public string Name;
         }
     }
 }

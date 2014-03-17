@@ -2,6 +2,11 @@
     <ul class="nav nav-sidebar">
         <li class="active"><a href="#/start">Start</a></li>
     </ul>
+    <ul class="nav nav-sidebar" ng-repeat="folder in folders">
+        <li><a href="#/customerList/folder/{{folder.id}}">{{folder.name}}</a></li>
+    </ul>
+
+
 
 </div>
 
